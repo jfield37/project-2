@@ -1,0 +1,12 @@
+footer {
+	height: 50px;
+	background-color: #E7E7E7;
+}
+
+h6 {
+	text-align: left;
+	font-size: 16px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
