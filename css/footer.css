@@ -10,3 +10,11 @@ h6 {
 	vertical-align: middle;
 	padding-left: 10px;
 }
+
+.twitter-button {
+	float: right;
+}
+
+#fb-root {
+	float: right;
+}
