@@ -13,6 +13,8 @@ h6 {
 
 .twitter-button {
 	float: right;
+	line-height: 50px;
+	vertical-align: middle;
 }
 
 #fb-root {
