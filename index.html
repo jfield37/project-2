@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project 2</title>
+    <title>Project 2 - About</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/modal.css" rel="stylesheet">
@@ -14,6 +14,28 @@
   </head>
 
   <body>
+
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Get in Touch</h4>
+      </div>
+      <img class="modal-image" src="img/jay.jpg">
+      <div class="modal-body">
+        <h4>Website Designed by</h4>
+        <h3>Jason Field</h3>
+        <h4>jay@brainstation.it</h4>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <!-- navbar begins -->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
@@ -41,26 +63,7 @@
 <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
   Get in Touch
 </button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+      </ul>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -182,7 +185,7 @@
   </section>
 
     <!-- footer begins -->
-    <footer>
+    <footer class="footer-container">
       <h6>© 2014 Jason Field</h6>
 
       <!-- twitter like button starts -->
@@ -224,7 +227,14 @@
     </footer>
     <!-- footer ends -->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   	<script src="js/bootstrap.min.js"></script>
+	<!-- jQuery -->
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function(){
+      console.log("Success!!");
+    });
+  </script>
   </body>
 </html>

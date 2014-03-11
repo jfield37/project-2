@@ -9,3 +9,16 @@ h1 {
 iframe {
 	padding: 10px;
 }
+
+#map_canvas {
+        width: 1000px;
+        height: 800px;
+        margin:0 auto;
+      }
+
+.modal-image {
+	width: 300px;
+	height: auto;
+	float: left;
+	padding-right: 15px;
+}
